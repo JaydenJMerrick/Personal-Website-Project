@@ -65,3 +65,7 @@ footer {
     margin-top: 15px;
     background-color: #2e2e2e;
 }
+
+footer img {
+    width: 20px;
+}
