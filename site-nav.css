@@ -1,0 +1,67 @@
+/*NAV BAR*/
+.site-nav{
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    top: 0px;
+    left: 15px;
+    right: 15px;
+    position: fixed;
+    background-color: #1f2420;
+    border-top: solid 15px #171717;
+}
+
+.nav-name{
+    color: #dbd4b5;
+    flex: 2;
+    height: 65px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    transition: font-size 0.4s;
+    /* Font */
+    font-family: "DM Serif Text", serif;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nav-page-option {
+    color: rgb(221, 221, 198);
+    flex: 1;
+    padding-top: 20px;
+    height: 45px;
+    text-align: center;
+    transition: background-color .5s;
+
+    /* font */
+    font-family: "DM Serif Text", serif;
+    font-weight: 20;
+    font-size: 16px;
+
+    /* For anchor tag */
+    text-decoration: none;
+    
+}
+
+.left-nav-border {
+    border-left: solid 1px rgb(221, 221, 198);
+}
+
+.nav-page-option:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    cursor: pointer;
+}
+
+.nav-name:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #2e2e2e;
+}
