@@ -2,13 +2,95 @@
 
 <html>
     <head>
+        <title>Resume</title>
+            <link rel="stylesheet" href="site-nav.css">
+            <link rel="stylesheet" href="portfolio.css">
 
+            <!-- GOOGLE FONTS -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+                <!-- NAV-NAME FONT -->
+            <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+                <!-- NAV-OPTION FONT -->
+            <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+                <!-- PORTFOLIO FONT-->
+            <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <a href="index.html">CLICK TO RETURN</a>
-        <br>
-        <img style="width: 500px;" src="UNDER-CONSTRUCTION.png">
+         <div class="site-nav">
+            <a href= "index.html" class="nav-name">JAYDEN MERRICK</a>
+            <a href="about.html" class="nav-page-option left-nav-border">About</a>
+            <a href="resume.html" class="nav-page-option ">Resume</a>
+            <a href="portfolio.html" class="nav-page-option">Portfolio</a>
+            <a href="contact.html" class="nav-page-option">Contact</a>
+        </div>
+
+        <div class="portfolio-title-section">
+            <h1 class="portfolio-title">P O R T F O L I O</h1>
+            <p>Welcome to my portfolio page. The presented projects are a collection of works from my university, research, clubs, hackathon, and personal. Included in each project block is the title and small description, along with links to the github-hosted code and pdf detailing more of the project. Down below the project section is research I have been involved with. Contact me if you are interest in collaborating or have questions!</p>
+        </div>
+
+        <div class="portfolio-projects">
+            <h1>Projects</h1>
+            
+            <div class = "project-box">
+                <h1 class="project-title">Personal Website Development Using HTML and CSS</h1>
+                <div class="project-description">
+                    <h3>Project Summary</h3>
+                    <p>The development of this website was to display my professional works and documentation. It also holds conveneint links to all my relevant cotacts</p>
+
+                    <div class="project-description-buttons">
+                        <a><h2>Github Files</h2></a>
+                        <div class="button-divider"></div>
+                        <a><h2>Project Details</h2></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "project-box">
+                <h1 class="project-title">Analyzing Noncoding DNA Mutation For Melanoma Cancer with CNN AI Models Supervisored Training</h1>
+                <div class="project-description">
+                    <h3>Project Summary</h3>
+                    <p>This AI model project will examine specfic DNA sequences and find what mutations effects would be in causing melanoma cancer cells. The Ai model wold be CNN arcticetchure with supervisored training.</p>
+                    <div class="project-description-buttons">
+                        <a><h2>Github Files</h2></a>
+                        <div class="button-divider"></div>
+                        <a><h2>Project Details</h2></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="portfolio-research">
+            <h1>Research</h1>
+
+            <ul>
+                <li>University and Professional Research will be detailed here along with any links to paper, articles, contacts, etc...</li>
+            </ul>
+        </div>
+
+        <footer>
+            <div class="footer-left">
+                <p><b>Hosted by UW Madison Computer Science Department</b></p>
+                <img src = "uw-crest-color-web-digital.png">
+                <p>Built by Jayden Merrick 2025, visit here for development details:</p>
+                <a href="portfolio.html">Website Report</a>
+            </div>
+
+            <div class="footer-right">
+                <h3><b>Quick Links</b></h3>
+                <img class="footer-icon" src="github-mark-white.png">
+                <img class="footer-icon" src="LeetCode_logo_white_no_text.svg">
+                <img class="footer-icon" src="InBug-White.png">
+                <img class="footer-icon" src="Instagram_Glyph_White.png">
+                <br>
+                <a href="about.html">Secret Page</p>
+            </div>
+        </footer>
+        
     </body>
 
 </html>
