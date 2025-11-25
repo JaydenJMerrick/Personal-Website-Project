@@ -137,7 +137,7 @@ body {
 #featured {
     background-color: #1f1f1f;
     color:#dbd4b5;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     margin-top: 15px;
     padding-top: 1px;
 }
@@ -186,4 +186,30 @@ body {
 #featured h4 {
 
     text-decoration: underline;
+}
+
+#see-projects {
+    height: 40px;
+    background-color: #303030;
+    text-align: center;
+    color:#dbd4b5;
+    font-family: "DM Serif Text", serif;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 130%;
+    padding-top: 1%;
+    transition: all .7s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#see-projects p {
+    margin: 0px;
+}
+
+#see-projects:hover {
+    background-color: #3f3f3f;
+    cursor: pointer;
 }
