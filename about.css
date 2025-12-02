@@ -12,8 +12,10 @@ body {
 }
 
 .about-section img {
-    width: 30%;
+    max-width: 200px;
+    width: 25%;
     object-fit: cover;
+    border:#dbd4b5 solid 1px;
 }
 
 .about-section h1 {
@@ -27,6 +29,7 @@ body {
 .section-left {
     flex: 1;
     padding-right: 10%;
+    font-size: 110%;
 }
 
 .numbered-section {
