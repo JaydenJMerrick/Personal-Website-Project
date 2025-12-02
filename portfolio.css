@@ -84,3 +84,8 @@ body {
 .portfolio-research h1 {
     border-bottom: #dbd4b5 solid 1px;
 }
+
+.project-description-buttons a {
+    text-decoration: none;
+    color: #dbd4b5;
+}
