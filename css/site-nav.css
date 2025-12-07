@@ -1,0 +1,122 @@
+/*NAV BAR*/
+.site-nav{
+    margin: 0 auto;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    top: 0px;
+    left: 15px;
+    right: 15px;
+    position: fixed;
+    background-color: #1f2420;
+    border-top: solid 15px #171717;
+    max-width: 1300px;
+}
+
+.nav-name{
+    color: #dbd4b5;
+    flex: 2;
+    height: 65px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition: font-size 0.4s;
+    /* Font */
+    font-family: "DM Serif Text", serif;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nav-page-option {
+    color: rgb(221, 221, 198);
+    flex: 1;
+    padding-top: 20px;
+    height: 45px;
+    text-align: center;
+    transition: background-color .5s;
+
+    /* font */
+    font-family: "DM Serif Text", serif;
+    font-weight: 20;
+    font-size: 16px;
+
+    /* For anchor tag */
+    text-decoration: none;
+    
+}
+
+.left-nav-border {
+    border-left: solid 1px rgb(221, 221, 198);
+}
+
+.nav-page-option:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    cursor: pointer;
+}
+
+.nav-name:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.nav-name:active{
+    color:rgb(194, 194, 131);
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #2e2e2e;
+    display: flex;
+    color: #646464;
+}
+
+.footer-right img {
+    width: 20px;
+    margin: 5px;
+}
+
+.footer-left img {
+    width: 140px;
+    margin-top: 17px;
+    margin-left: 2%;
+}
+.footer-left p {
+    margin-bottom: 0px;
+}
+.footer-left a {
+    margin-left: 2%;
+    color: #a7a7a7;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+.footer-left {
+    flex: 1;
+    padding-left: 30px;
+    padding-top:5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer-right {
+    margin-top: 20px;
+    flex: 1;
+    margin-left: 30%;
+    color: #dadada;
+}
+
+.footer-right a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+.footer-right a:hover {
+    color: #dadada;
+    text-decoration: none;
+    transition: 2s;
+}

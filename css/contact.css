@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    background-color: #171717;
+    padding: 15px;
+    max-width: 1300px;
+    color: #dbd4b5;
+    padding-top: 100px;
+}
+
+.contact-section {
+    width: 25%;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.contact-section h1 {
+    font-size: 55px;
+    text-align: center;
+    border-bottom: #dbd4b5 solid 1px;
+}
+
+.contact-section img{
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 100%;
+}
+
+.contact-section h2 {
+    font-size: 30px;
+    border-bottom: #dbd4b5 solid 1px;
+}
+.contact-section p {
+    font-size: 20px;
+}
+
+.contact-section button {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    background-color: #303030;
+    border: #dbd4b5 solid 1px;
+    color: #dbd4b5;
+}
+
+.contact-section button:hover {
+    background-color: #555454;
+    cursor: pointer;
+}

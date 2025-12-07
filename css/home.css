@@ -1,0 +1,215 @@
+body {
+    margin: 0 auto;
+    background-color: #171717;
+    padding: 15px;
+    max-width: 1300px;
+    
+}
+
+.greeting-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 550px;
+    margin-top: 80px;
+}
+
+.greeting-left{
+    flex: 1;
+    padding-right: 20px;
+    color: cornsilk;
+    z-index: 2;
+    border-right: solid cornsilk 1px;
+    font-family: "DM Serif Text", serif;
+}
+
+.greeting-left-elements{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text {
+    height: 75px;
+    width: 350px;
+    margin-left: 10px;
+    font-size: 45px;
+}
+
+.welcome-paragraph {
+    margin-top: 50px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.button-box{
+    flex: 1;
+    padding-top: 8%;
+
+}
+
+.greeting-img-parent {
+    flex: 2;
+    overflow: hidden;
+    background-image: URL(../images/greetingIMG2.JPEG);
+    background-size: cover;
+    background-position: center;
+    opacity: 85%;
+    
+}
+
+.greeting-img {
+    height: 550px;
+    /*
+    right: 500px;
+    position: relative;
+    */
+}
+
+.home-greeting-button {
+    width: 90%;
+    background-color: #dbd4b5;
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+    color:#171717;
+    height: 60px;
+    border: solid #171717 2px;
+    margin-top: 5px;
+    margin-left: 5%;
+    transition: all .7s;
+}
+
+.home-greeting-button:hover{
+    background-color: #dbd4b513;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+#news-div {
+    margin-top: 15px;
+    background-color: #1f1f1f;
+    color: #dbd4b5;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.news-left {
+    border-right: #dbd4b5 1px solid;
+    flex:1;
+    padding-right: 20px;
+    font-size: 100%;
+}
+
+.news-left h1 {
+    margin-top: 25%;
+    margin-left: 15px;
+}
+
+.news-right {
+    flex: 2;
+}
+
+.news-right h2 {
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.news-right p {
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.annoucement-title {
+    display: flex;
+}
+
+.annoucement-title h2 {
+    flex: 3;
+}
+
+.annoucement-title h3 {
+    flex: 1;
+    width: 30px;
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
+
+#featured {
+    background-color: #1f1f1f;
+    color:#dbd4b5;
+    padding-bottom: 3%;
+    margin-top: 15px;
+    padding-top: 1px;
+}
+
+#featured h1 {
+    border-bottom: #dbd4b5 1px solid;
+    margin-left: 1%;
+}
+
+#featured img{
+    width: 70%;
+    margin-left: 12%;
+    max-width: 300px;
+}
+
+.featured-flex {
+    display: flex;
+}
+
+#featured button{
+    margin-top: 1%;
+    width: 200px;
+    height: 50px;
+    color: #dbd4b5;
+    background-color: #171717;
+    margin-left: 23%;
+}
+
+.featured-right {
+    margin-top: 2%;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+
+.featured-left {
+    margin-left: 1%;
+    font-size: 120%;
+    text-align: center;
+}
+
+#featured p {
+    margin-top: 30px;
+    font-size: 110%;
+}
+
+#featured h4 {
+
+    text-decoration: underline;
+}
+
+#see-projects {
+    height: 40px;
+    background-color: #303030;
+    text-align: center;
+    color:#dbd4b5;
+    font-family: "DM Serif Text", serif;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 130%;
+    padding-top: 1%;
+    transition: all .7s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#see-projects p {
+    margin: 0px;
+}
+
+#see-projects:hover {
+    background-color: #3f3f3f;
+    cursor: pointer;
+}

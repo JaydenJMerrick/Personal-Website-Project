@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    background-color: #171717;
+    padding: 15px;
+    max-width: 1000px;
+}
+
+.title-resume-cv img {
+    width: 55px;
+    height: 40px;
+}
+
+.title-resume-cv {
+    margin-top: 70px;
+    display: flex;
+    border-bottom: #dbd4b5 solid 1px;
+}
+
+.resume-left{
+    color:#dbd4b5;
+    font-size: 25px;
+    flex: 1;
+}
+
+.resume-right{
+   margin-top: 10px;
+   transition: background-color .7s;
+}
+
+.resume-right:hover {
+    background-color:#2b2b2b;
+    border-radius: 5%;
+}
+
+iframe {
+    display: block;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+    height: 700px;
+}
+
+
+
+
+
