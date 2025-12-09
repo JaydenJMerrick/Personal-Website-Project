@@ -32,14 +32,14 @@ body {
     border-radius: 5%;
 }
 
-iframe {
+.resume-img {
     display: block;
     margin-top: 14px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     max-width: 700px;
-    height: 700px;
+    height: 100%;
 }
 
 
