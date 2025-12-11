@@ -49,6 +49,11 @@ body {
     font-size: 16px;
 }
 
+.project-description p{
+    width: 100%;
+    
+}
+
 .project-description-buttons {
     display: flex;
     text-align: center;
