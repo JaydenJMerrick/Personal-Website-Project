@@ -16,11 +16,25 @@ body {
     width: 25%;
     object-fit: cover;
     border:#dbd4b5 solid 1px;
+    margin-top: 30px;
 }
 
 .about-section h1 {
     border-bottom: #dbd4b5 solid 1px;
+    margin-bottom: 0px;
 }
+
+.about-section h2 {
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.about-section p {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
 
 .section-description{
     display: flex;
@@ -34,29 +48,47 @@ body {
 
 .numbered-section {
     display: flex;
+    margin-top: 15px;
+    transition: .5s;
 }
+
+.numbered-section:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+.numbered-section div{
+    flex:1;
+    
+}
+
+#goals{
+    margin:3%;
+}
+    
 
 .numbered-section h3 {
     flex: 1;
-    padding-left: 20px;
+    margin-left: 20px;
     font-size: 28px;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .numbered-section h2 {
     background-color: #303030;
-    width: 60px;
-    height: 50px;
-    font-size: 30px;
+    width: 50px;
+    height: 47px;
+    font-size: 35px;
     margin: 0;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 0px;
 }
 
 .numbered-section-description {
     margin: 5px;
     margin-bottom: 10px;
-    margin-left: 7%;
-    font-size: 16px;
+    padding-left: 7px;
+    font-size: 18px;
 }
