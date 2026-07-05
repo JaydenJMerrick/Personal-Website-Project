@@ -120,3 +120,42 @@ footer {
     text-decoration: none;
     transition: 2s;
 }
+
+/* Hides mobile nav */
+.mobile-nav {
+  display: none;
+}
+
+/* mobile nav trigger */
+@media (max-width: 768px) {
+  /* Hide the desktop navbar */
+  .site-nav {
+    display: none;
+  }
+
+  /* Show and style the mobile navbar */
+  .mobile-nav {
+    display: block;
+    background-color: #222;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: -8%
+  }
+    
+  .mobile-nav a{
+    border-left: solid #dbd4b5 1px;
+    display: block;
+    background-color: #1d1c1c;
+    text-align: center;
+    font-size: 180%;
+    margin-top: 2%;
+    padding-bottom: 2%
+    
+  }
+    
+  .mobile-nav .nav-name{
+        background-color: #222;
+        border-left: 0px;
+        font-size: 280%;
+    }
+}
