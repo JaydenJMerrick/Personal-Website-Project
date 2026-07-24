@@ -153,24 +153,26 @@ footer {
   .mobile-nav {
     display: block;
     background-color: #222;
-    margin-bottom: -8%;
   }
     
     
   .content a{
-    border-left: solid #dbd4b5 1px;
-    display: block;
-    background-color: #1d1c1c;
-    text-align: center;
-    font-size: 120%;
-    margin-top: 2%;
-    padding-bottom: 1%;
-    padding-top: 3%;
-    height: 40px;
-    font-family: "DM Serif Text", serif;
-    font-weight: 20;
-    color: #dbd4b5;
-  }
+        border-left: solid #dbd4b5 1px;
+        display: block;
+        background-color: #1d1c1c;
+        text-align: center;
+        font-size: 120%;
+        margin-top: 2%;
+        padding-bottom: 1%;
+        padding-top: 3%;
+        height: 40px;
+        font-family: "DM Serif Text", serif;
+        font-weight: 20;
+        color: #dbd4b5;
+
+        /* For anchor tag */
+        text-decoration: none;
+    }
     
     .main-mobile-nav {
         display: flex;
@@ -181,22 +183,23 @@ footer {
         background-color: #222;
         border-left: 0px;
         font-size: 160%;
-        padding-left: 0%;
         margin-top: 0%;
         height: 50px;
         padding-top: 1%;
-        padding-left: 15%;
         padding-bottom: 1%;
+        padding-left: auto;
+        padding-right: auto;
+        
     }
     
     .click-label {
-    color: #dbd4b5;
-    font-size: 30px;
-    flex: 1;
-    text-align: center;
-    padding-top: 2%;
-    border-left: 1px solid #dbd4b5;
-  }
+        color: #dbd4b5;
+        font-size: 160%;
+        flex: 1;
+        text-align: center;
+        padding-top: 2%;
+        border-left: 1px solid #dbd4b5;
+    }
 }
 
 

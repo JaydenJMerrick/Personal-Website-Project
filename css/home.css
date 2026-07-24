@@ -115,8 +115,9 @@ body {
 }
 
 .news-right p {
-    margin-top: 0px;
-    margin-left: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .annoucement-title {
@@ -213,3 +214,60 @@ a {
     background-color: #3f3f3f;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    
+    /* Greeting box */
+    .greeting-box {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 25px;
+    }
+    
+    .greeting-img-parent {
+        flex: none;
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .greeting-left{
+        border-top: solid cornsilk 1px;
+        border-right: 0px;
+    }
+    
+    .welcome-paragraph{
+        padding-left: 5%;
+    }
+    
+    .home-greeting-button {
+        margin-left: 8%;
+    }
+    
+    /* News/Annoucements */
+    
+    #news-div {
+    flex-direction: column;
+    }
+    
+    #news-div h1{
+        margin-top: 4%;
+        margin-bottom: 0%;
+        margin-left: 1%;
+    }
+    
+    .news-left {
+        border-bottom: #dbd4b5 1px solid;
+        border-right: 0px;
+    }
+        
+    /* Featured Project */
+    
+    .featured-flex {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+

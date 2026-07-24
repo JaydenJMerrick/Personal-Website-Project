@@ -92,3 +92,21 @@ body {
     padding-left: 7px;
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    
+    body{
+        padding-top: 15px;
+    }
+    
+    .section-description{
+        flex-direction: column-reverse;        
+    }
+    
+    .about-section img{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
