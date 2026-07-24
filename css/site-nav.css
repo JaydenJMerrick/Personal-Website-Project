@@ -194,11 +194,14 @@ footer {
     
     .click-label {
         color: #dbd4b5;
-        font-size: 160%;
+        font-size: 25px;
         flex: 1;
         text-align: center;
-        padding-top: 2%;
+        padding-top: 2.2%;
+        padding-bottom: auto;
+        
         border-left: 1px solid #dbd4b5;
+        
     }
 }
 
