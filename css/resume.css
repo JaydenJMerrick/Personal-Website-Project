@@ -42,7 +42,11 @@ body {
     height: 100%;
 }
 
-
-
+@media (max-width: 768px) {
+    
+    .title-resume-cv{
+        margin-top: 15px;
+    }
+}
 
 
