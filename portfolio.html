@@ -19,6 +19,9 @@
 
             <!-- Favicon -->
             <link rel="icon" href="logos_and_icons/favicon.png" sizes="288x288" type="image/png">
+        
+            <!-- Mobile View -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
@@ -28,6 +31,21 @@
             <a href="resume.html" class="nav-page-option ">Resume</a>
             <a href="portfolio.html" class="nav-page-option">Portfolio</a>
             <a href="contact.html" class="nav-page-option">Contact</a>
+        </div>
+        
+        <div class="mobile-nav">
+            <div class="main-mobile-nav">
+            <a href= "index.html" class="nav-name">JAYDEN MERRICK</a>
+            <label for="toggle-box" class="click-label">☰</label>
+            </div>
+            <input type="checkbox" id="toggle-box" class="hidden-box">
+
+            <div class="content">
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </div>
 
         <div class="portfolio-title-section">
@@ -39,7 +57,7 @@
             <h1>Projects</h1>
             
             <div class = "project-box">
-                <h1 class="project-title">Personal Biography Website</h1>
+                <h1 class="project-title">Personal Portfolio Website</h1>
                 <div class="project-description">
                     <h3>Project Summary</h3>
                     <p>Simple personal website developed with only HTML and CSS. The purpose of this website was to allow for the presentation of my professional works and documentation, such as personal projects and research commitments. It also holds convenient links to all my relevant contacts, so please contact me if you have any questions about the code, server, or design. Further updates will be pushed to maintain recent information.</p>
@@ -58,24 +76,6 @@
 
             </div>
 
-            <div class = "project-box">
-                <h1 class="project-title">Analyzing Noncoding DNA Mutation For Melanoma Cancer with CNN AI Model</h1>
-                <div class="project-description">
-                    <h3>Project Summary</h3>
-                    <p>This project aims to develop a predictive model which intakes raw DNA sequence data to estimate the likelihood of a mutation driving melanoma cancer along noncoding sequences of DNA. The model architecture of Convolutional Neural Network (CNN) will be trained under the supervised training method to utilize the robust datasets of noncoding mutated variants seen as melanoma-linked or benign. The impact of such a model could further research for early risk assessment of melanoma cancer.</p>
-
-                    <!--
-                    <div class="project-description-buttons">
-                        <a href="https://github.com/JaydenJMerrick/Melanoma-Risk-Assessment-CNN-Model"><h2>Github Files</h2></a>
-                        <div class="button-divider"></div>
-                        <a><h2>Project Details</h2></a>
-                    </div>
-                -->
-                </div>
-            </div>
-            <div class="drop-down-arrow">Project is currently in progress
-                
-            </div>
 
             <div class = "project-box">
                 <h1 class="project-title">Serverless Data Ingestion & Fuzzy Matching API</h1>
@@ -100,19 +100,52 @@
         <div class="portfolio-research">
             <h1>Research</h1>
 
-            <ul>
-                <li>Upcoming Biology 152 Research Project will be listed here. Expect further developments around April 2026!</li>
-            </ul>
+            <div class = "project-box">
+                <h1 class="project-title">Land-Use History and Controlled Burns Effectivness on Fungi Function and Abundance</h1>
+                <div class="project-description">
+                    <h3>Project Summary</h3>
+                    <p>Analysis of ecological data collected by the Damschen Research Lab at the University of Wisconsin-Madison. Project is entirely done in R; packages include tidyverse, vegan, and FUNGuild by Brandananf. Data processing was done using tidyverse. Fungi guilds were determined using FUNGuild. Analysis was done with base R, but graphing used vegan.</p>
+
+                    <!----
+                    <div class="project-description-buttons">
+                        <a href="https://github.com/JaydenJMerrick/Personal-Website-Project"><h2>Github Files</h2></a>
+                        <div class="button-divider"></div>
+                        <a href="report_and_resume_pdfs/Website_Project_Report.pdf"><h2>Project Details</h2></a>
+                    </div>
+                    -->
+                </div>
+            </div>
+            <div class="drop-down-arrow">Hover to see details
+                <a href="https://github.com/JaydenJMerrick/soil-fungi-burn-history"><div class="drop-down-option">Github Repository</div></a>
+                <a href="/report_and_resume_pdfs/Land-use%20History%20Impacts%20Fungi%20Diversity.pdf"><div class="drop-down-option">View Research Paper</div></a>
+
+            </div>
         </div>
 
         <div class = "portfolio-research">
             <h1>Clubs & Organizations</h1>
 
-            <ul>
-                <li>Upcoming Badger Biodata club projects will be listed here. Expect further developments around April 2026!</li>
-            </ul>
-        </body>
+            <div class = "project-box">
+                <h1 class="project-title">Analyzing Noncoding DNA Mutation For Acute Myeloid Leukemia with CNN AI Model</h1>
+                <div class="project-description">
+                    <h3>Project Summary</h3>
+                    <p>This project aims to develop a predictive model which intakes raw DNA sequence data to estimate the likelihood of a mutation driving leukemia cancer along noncoding sequences of DNA. The model architecture of Convolutional Neural Network (CNN) will be trained under the supervised training method to utilize datasets of noncoding mutated variants seen as leukemia-linked or benign. The impact of such a model could further research for early risk assessment of leukemia cancer.</p>
 
+                    <!--
+                    <div class="project-description-buttons">
+                        <a href="https://github.com/JaydenJMerrick/Melanoma-Risk-Assessment-CNN-Model"><h2>Github Files</h2></a>
+                        <div class="button-divider"></div>
+                        <a><h2>Project Details</h2></a>
+                    </div>
+                -->
+                </div>
+            </div>
+            <div class="drop-down-arrow">Project is currently in progress at The Badger Biodata Initiative
+                
+            </div>
+
+        </div>
+        
         <footer>
             <div class="footer-left">
                 <p><b>Hosted by Netlify Hosting Servers</b></p>
@@ -125,13 +158,13 @@
                 <h3><b>Quick Links</b></h3>
                 <a href="https://github.com/JaydenJMerrick"><img class="footer-icon" src="logos_and_icons/footer_contact_icons/github-mark-white.png"></a>
                 <a href="https://leetcode.com/u/JaydenJMerrick/"><img class="footer-icon" src="logos_and_icons/footer_contact_icons/LeetCode_logo_white_no_text.svg"></a>
-                <a <a href="https://www.linkedin.com/in/jayden-merrick-45a110267/"><img class="footer-icon" src="logos_and_icons/footer_contact_icons/InBug-White.png"></a>
+                <a href="https://www.linkedin.com/in/jayden-merrick-45a110267/"><img class="footer-icon" src="logos_and_icons/footer_contact_icons/InBug-White.png"></a>
                 <a href="https://www.instagram.com/jaydenjmerrick/?hl=en"><img class="footer-icon" src="logos_and_icons/footer_contact_icons/Instagram_Glyph_White.png"></a>
                 <br>
-                <a href="about.html">Secret Page</p>
+                <a href="about.html">Secret Page</a>
             </div>
         </footer>
 
     </body>
-
+            
 </html>
