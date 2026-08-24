@@ -135,6 +135,12 @@ body {
     margin-bottom: 5px;
 }
 
+p a{
+    color: #dbd4b5;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 #featured {
     background-color: #1f1f1f;
     color:#dbd4b5;
